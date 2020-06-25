@@ -12,8 +12,8 @@ public class CoffeeServiceImpl implements CoffeeService {
 	@Override
 	public CoffeeDto getCoffeeById(UUID coffeeId) {
 		return CoffeeDto.builder().id(UUID.randomUUID())
-				.coffeeName("")
-				.coffeeStyle("")
+				.coffeeName("Narasus Coffee")
+				.coffeeStyle("Instant")
 				.build();
 	}
 	

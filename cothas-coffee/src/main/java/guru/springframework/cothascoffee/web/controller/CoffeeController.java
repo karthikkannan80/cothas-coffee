@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 import guru.springframework.cothascoffee.services.CoffeeService;
 import guru.springframework.cothascoffee.web.model.CoffeeDto;
 
-@RestController
 @RequestMapping("/api/v1/coffee")
+@RestController
 public class CoffeeController {
 	
 	private final CoffeeService coffeeService;
